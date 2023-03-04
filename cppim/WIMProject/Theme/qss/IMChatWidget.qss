@@ -1,0 +1,494 @@
+﻿QWidget#IMChatWidget
+{
+    border-radius:5px;
+    border:1px solid #ff0000;
+}
+QWidget[userPhoto=true]
+{
+    background:white;
+}
+/*姓名按钮样式*/
+QPushButton#pbt_userName
+{
+    border:none;
+    font-family: "Microsoft YaHei";
+    font-size:24px;
+}
+/*发送输入框样式表*/
+QTextEdit#textEdit_send
+{
+    border:none;
+    background:transparent;
+}
+/*用户名称*/
+QPushButton#pbt_userName:hover
+{
+    border:none;
+    font-family: "Microsoft YaHei";
+    font-size:24px;
+    border-bottom:2px solid #000000;
+}
+
+QWidget[userPhoto=true]
+{
+    border-image:url(":/Theme/Images/IMChatListWidget/icon1.jpg");
+    border:none;
+    min-width:50px;
+    max-width:50px;
+    min-height:50px;
+    max-height:50px;
+    margin-top:5px;
+}
+QPushButton[message=true]
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    margin-left:7px;
+    border-image:url(":/Theme/Images/IMChatWidget/message.png");
+}
+QPushButton[message=true]:hover
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/message-hover.png");
+}
+QPushButton[message=true]:focus
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/message-pressed.png");
+}
+
+QPushButton[address=true]
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    margin-left:7px;
+    border-image:url(":/Theme/Images/IMChatWidget/addressList.png");
+}
+QPushButton[address=true]:hover
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/addressList-hover.png");
+}
+QPushButton[address=true]:focus
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/addressList-pressed.png");
+}
+
+QPushButton[look=true]
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    margin-left:7px;
+    border-image:url(":/Theme/Images/IMChatWidget/look.png");
+}
+QPushButton[look=true]:hover
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/look-hover.png");
+}
+QPushButton[look=true]:focus
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/look-pressed.png");
+}
+
+QPushButton[setting=true]
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    margin-left:7px;
+    border-image:url(":/Theme/Images/IMChatWidget/more.png");
+}
+QPushButton[setting=true]:hover
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/more-hover.png");
+}
+QPushButton[setting=true]:focus
+{
+    min-width:30px;
+    max-width:30px;
+    min-height:30px;
+    max-height:30px;
+    border:none;
+    border-image:url(":/Theme/Images/IMChatWidget/more-pressed.png");
+}
+
+
+/*标题栏最大化按钮*/
+QToolButton[maxButton=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/max.png");
+}
+QToolButton[maxButton=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/max.png");
+}
+QToolButton[maxButton=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/max.png");
+}
+/*标题栏最小化按钮*/
+QToolButton[minButton=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/min.png");
+}
+QToolButton[minButton=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/min.png");
+}
+QToolButton[minButton=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/min.png");
+}
+
+/*标题栏关闭按钮*/
+QToolButton[closeButton=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/close.png");
+}
+QToolButton[closeButton=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/close.png");
+}
+QToolButton[closeButton=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:25px;
+    min-width:25px;
+    max-height:25px;
+    max-width:25px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/close.png");
+}
+/*菜单栏按钮*/
+QToolButton[expression=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/expression.png");
+}
+QToolButton[expression=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/expression.png");
+}
+QToolButton[expression=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/expression.png");
+}
+QToolButton[screenShot=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/screenShot.png");
+}
+QToolButton[screenShot=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/screenShot.png");
+}
+QToolButton[screenShot=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/screenShot.png");
+}
+QToolButton[sendPicture=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/sendPicture.png");
+}
+QToolButton[sendPicture=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/sendPicture.png");
+}
+QToolButton[sendPicture=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/sendPicture.png");
+}
+QToolButton[transferFile=true]
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/transferFile.png");
+}
+QToolButton[transferFile=true]:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#E0E0E0;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/transferFile.png");
+}
+QToolButton[transferFile=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:30px;
+    min-width:30px;
+    max-height:30px;
+    max-width:30px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background:#BDBDBD;
+    border-image:url(":/Theme/Images/IMChatWidget/titleBar/transferFile.png");
+}
+
+/*滚动条样式表*/
+QScrollBar{
+    background:#FFFFFF;
+    width:10px;
+    padding:0px;
+    border-radius:5px;
+}
+QScrollBar::handle{
+    background:#BDBDBD;
+    width:10px;
+    border-radius:5px;
+}
+QScrollBar::handle:hover{
+    background:#9E9E9E;
+    width:10px;
+    border-radius:5px;
+}
+QScrollBar::handle:pressed{
+    background:#757575;
+    width:10px;
+    border-radius:5px;
+}

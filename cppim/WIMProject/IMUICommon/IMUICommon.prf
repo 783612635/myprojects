@@ -1,0 +1,13 @@
+
+#自定义标题头控件
+include($$PWD/IMTitleHeader/IMTitleHeader.pri)
+#输入框控件
+include($$PWD/IMLineEdit/IMLineEdit.pri)
+#窗口
+include($$PWD/IMWidget/IMWidget.pri)
+#滚动条窗口
+include($$PWD/IMScrollArea/IMScrollArea.pri)
+#聊天窗口（GraphicsView版本）
+#include($$PWD/IMChatControl/IMChatControl.pri)
+#聊天窗口(QWidget绘制版本)
+include($$PWD/IMChatWidget/IMChatWidget.pri)

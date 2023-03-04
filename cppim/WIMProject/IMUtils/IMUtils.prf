@@ -1,0 +1,9 @@
+
+#所有工具类
+include($$PWD/IMJsonUtil/IMJsonUtil.pri)
+include($$PWD/IMSqlUtil/IMSqlUtil.pri)
+include($$PWD/IMXmlUtil/IMXmlUtil.pri)
+#用于全局配置文件配置信息
+include($$PWD/AppConfig/AppConfig.pri)
+#用于全局定义以及宏函数编写
+include($$PWD/IMDefine/IMDefine.pri)

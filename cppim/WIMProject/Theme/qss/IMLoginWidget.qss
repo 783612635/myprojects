@@ -1,0 +1,62 @@
+﻿QWidget#IMLoginWidget[IMLoginWidget=true]
+{
+    border-image:url(":/Theme/Images/BackgroundImage/LoginBackground.jpg");
+}
+
+QLineEdit[blue=true]
+{
+    color:#64FFDA;
+    min-width:5em;
+    min-height:34px;
+    border-radius:5px;
+    border:3px solid #01AFEB;
+    padding:0px 0px 0px 10px;
+    font: 18px "Microsoft YaHei";
+    background-color:rgba(0,23,57,127);
+}
+
+QLabel[white=true]
+{
+    color:white;
+    font-family: "Microsoft YaHei";
+    font-weight:bold;
+    font-size:18px;
+}
+/*按钮科技样式*/
+QPushButton[Login=true]
+{
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon.png");
+}
+QPushButton[Login=true]:hover
+{
+    color:yellow;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon-hover.png");
+}
+QPushButton[Login=true]:pressed
+{
+    color:#18FFFF;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon-pressed.png");
+}
+

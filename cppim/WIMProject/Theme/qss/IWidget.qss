@@ -1,0 +1,164 @@
+﻿/*主题窗口*/
+QWidget[FramHiteWidget=true]
+{
+    border:none;
+    border-radius:10px;
+    background-color:rgba(108,207,255,80%);
+}
+
+/*标题栏*/
+QWidget[TitleWidget=true]
+{
+    margin:none;
+    margin:0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background-color:rgb(25,61,89);
+    background-image:url(:/Theme/Images/IMTitleHeader/bckground.png);
+}
+/*窗口文本*/
+QLabel[TitleLabel=true]
+{
+    border:none;
+    color:rgb(249,163,57);
+    font-size:18px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+}
+
+/*放大按钮样式*/
+QToolButton[maxButton=true]
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/max.png);
+}
+QToolButton[maxButton=true]:hover
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/max_hover.png);
+}
+QToolButton[maxButton=true]:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/max_pressed.png);
+}
+
+/*最小化按钮样式*/
+QToolButton[minButton=true]
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/min.png);
+}
+QToolButton[minButton=true]:hover
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/min_hover.png);
+}
+QToolButton[minButton=true]:pressed
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/min_pressed.png);
+}
+
+/*关闭按钮样式*/
+QToolButton[closeButton=true]
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/close.png);
+}
+QToolButton[closeButton=true]:hover
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/close_hover.png);
+}
+QToolButton[closeButton=true]:pressed
+{
+    border:none;
+    padding:none;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(:/Theme/Images/IWidget/close_pressed.png);
+}
+
+/*按钮科技样式*/
+QPushButton[Login=true]
+{
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon.png");
+}
+QPushButton[Login=true]:hover
+{
+    color:yellow;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon-hover.png");
+}
+QPushButton[Login=true]:pressed
+{
+    color:#18FFFF;
+    font-size:17px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+    min-height:40px;
+    max-height:40px;
+    min-width:100px;
+    max-width:100px;
+    border-image:url(":/Theme/Images/MainWindows/btnIcon-pressed.png");
+}
+
+QLineEdit[blue=true]
+{
+    color:#64FFDA;
+    min-width:5em;
+    min-height:34px;
+    border-radius:5px;
+    border:3px solid #01AFEB;
+    padding:0px 0px 0px 10px;
+    font: 18px "Microsoft YaHei";
+    background-color:rgba(0,23,57,127);
+}
+
+QLabel[white=true]
+{
+    color:white;
+    font-family: "Microsoft YaHei";
+    font-weight:bold;
+    font-size:18px;
+}

@@ -1,0 +1,3 @@
+#所有三方库
+INCLUDEPATH += $$PWD
+include($$PWD/pugixml/pugixml.pri)

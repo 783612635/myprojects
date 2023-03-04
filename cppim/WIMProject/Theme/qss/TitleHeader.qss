@@ -1,0 +1,104 @@
+﻿QWidget[IMTitleHeader=true]
+{
+    margin:none;
+    margin:0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    background-color:rgb(25,61,89);
+    background-image:url(:/Theme/Images/IMTitleHeader/bckground.png);
+}
+
+/*标题栏关闭按钮*/
+QWidget#IMTitleHeader QPushButton#pbt_close
+{
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Close.png");
+}
+QWidget#IMTitleHeader QPushButton#pbt_close:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Close-hover.png");
+}
+QWidget#IMTitleHeader QPushButton#pbt_close:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Close-pressed.png");
+}
+/*标题栏最小化按钮*/
+QWidget#IMTitleHeader QPushButton#pbt_min
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Min.png");
+}
+QWidget#IMTitleHeader QPushButton#pbt_min:hover
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    margin:0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Min-hover.png");
+}
+QWidget#IMTitleHeader QPushButton#pbt_min:pressed
+{
+    margin:none;
+    border:none;
+    padding:none;
+    min-height:15px;
+    min-width:15px;
+    max-height:15px;
+    max-width:15px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    border-image:url(":/Theme/Images/IMTitleHeader/Btn-Min-pressed.png");
+}
+
+/*标题栏文本颜色*/
+QWidget#IMTitleHeader QLabel
+{
+    border:none;
+    color:rgb(249,163,57);
+    font-size:18px;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+}
+
